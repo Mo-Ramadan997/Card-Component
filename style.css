@@ -111,3 +111,17 @@ button:active {
 svg {
   width: 1.7rem;
 }
+.imge-mobile {
+  display: none;
+}
+@media (max-width: 375px) {
+  .imge-mobile {
+    display: block;
+  }
+  .imge-desktop {
+    display: none;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
